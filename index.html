@@ -1,0 +1,561 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Nikhil Agarwal</title>
+  
+  <meta name="author" content="Nikhil Agarwal">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="images/Nikhil.png">
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Nikhil Agarwal</name>
+              </p>
+              <p>I am a Masters student in computer science at the Interactive Robotics Lab, at Arizona State University, where I am fortunate to be advised by <a href="http://henibenamor.weebly.com/">Heni Ben Amor</a>. My work at ASU has been mostly focused around Reinforcement Learning, my thesis was at the cross-section of Model-Based and Distributional Reinforcement Learning.
+              </p>
+              <p>
+                Before joining ASU, I worked for Tesco, where I developed algorithms for capacitated vehicle routing problems operating in real-world for whole of UK and Ireland. I did my bachelors from <a href="https://cs.pes.edu">PES University</a>, Bangalore.
+              </p>
+              <p>
+                My goal is to learn more about Reinforcement Learning algortihms and make them more applicable to real-world problems.
+              </p>
+              <p style="text-align:center">
+                <a href="mailto:nikhil_agarwal@asu.edu">Email</a> &nbsp/&nbsp
+                <a href="https://github.com/niagl/">Github</a> &nbsp/&nbsp
+                <a href="https://linkedin.com/in/nikhilagarwal-1/">LinkedIn</a> &nbsp/&nbsp
+                <a href="https://twitter.com/agarw_nik">Twitter</a> &nbsp/&nbsp
+                <a href="data/Nikhil_Agarwal_CV.pdf">CV</a> 
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <img style="width:100%;max-width:100%" alt="profile photo" src="images/Nikhil.png" class="hoverZoomLink">
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Academic Projects</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr onmouseout="pddm_c51_stop()" onmouseover="pddm_c51_start()" bgcolor="#ffffd0">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='pddm_c51_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/pddm_c51.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/pddm_c51.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function pddm_c51_start() {
+                  document.getElementById('pddm_c51_image').style.opacity = "1";
+                }
+
+                function pddm_c51_stop() {
+                  document.getElementById('pddm_c51_image').style.opacity = "0";
+                }
+                pddm_c51_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <strong>Leveraging distributional reward formulations for model-based RL (thesis work)</strong>
+              <br>
+              <a href="https://github.com/niagl/pddm">code</a> /
+              <a href="data/thesis_defense.pdf">ppt</a> /
+              <a href="https://www.proquest.com/openview/7109aa1950ec75e98891fbd1367841ad/1?cbl=18750&diss=y&pq-origsite=gscholar">thesis</a>
+              <br>  
+              Spring 2021
+              <br>
+              <p></p>
+              <p>Masters thesis work focused on making model-based reinforcement learning algorithms execute more
+              risk-averse actions and enable the learning to be more faster and stable. To achieve this, PDDM (a model-based RL algorithm) is provided with a distributional reward formulation as compared to the original scalar reward formulation. C-51 (distributional RL algorithm) is used to generate distributional reward formulations for every state-action pair. </p>
+            </td>
+          </tr>
+
+
+          <tr onmouseout="adacurv_stop()" onmouseover="adacurv_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='adacurv_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/half_cheetah_gym.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/half_cheetah_gym.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function adacurv_start() {
+                  document.getElementById('adacurv_image').style.opacity = "1";
+                }
+
+                function adacurv_stop() {
+                  document.getElementById('adacurv_image').style.opacity = "0";
+                }
+                adacurv_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <strong>AdaCurv: 2nd order optimizer (continuation of <a href="">Trevor Barron's work</a>)</strong>
+              <br>
+              <a href="https://github.com/niagl/Adacurv_">code</a>
+              <br>
+              Spring 2020
+              <br>
+              <p></p>
+              <p>Built a family of adaptive curvature methods for gradient-based stochastic optimization thorugh Experimentation with curvature matrix estimation and shrinkage methods for covariance matrices. These improve upon current 2nd order approximations based on Fisher or Gauss-Newton with adaptive stochastic gradient descent methods.
+              </p>
+            </td>
+          </tr>
+
+
+          <tr onmouseout="lane_change_stop()" onmouseover="lane_change_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='lane_change_image'>
+                  <img src='images/lane_change_2.png' width="160"></div>
+                <img src='images/lane_change_1.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function lane_change_start() {
+                  document.getElementById('lane_change_image').style.opacity = "1";
+                }
+
+                function lane_change_stop() {
+                  document.getElementById('lane_change_image').style.opacity = "0";
+                }
+                lane_change_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <strong>Learning lane changing policies</strong>
+              <br>
+              <a href="https://youtu.be/_3eNMpiVUtc">video</a>
+              <br>
+              Spring 2019
+              <br>
+              <p></p>
+              <p>Using Max-Entropy Inverse Reinforcement Learning, trained an agent to learn various strategies for overtaking other cars via human demonstartions. This project was done as part of CSE-591('Advances in Robotics').</p>
+            </td>
+          </tr> 
+
+          <tr onmouseout="dribble_stop()" onmouseover="dribble_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dribble_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/dribble.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/dribble.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function dribble_start() {
+                  document.getElementById('dribble_image').style.opacity = "1";
+                }
+
+                function dribble_stop() {
+                  document.getElementById('dribble_image').style.opacity = "0";
+                }
+                dribble_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <strong>Air dribble using quadcopter</strong>
+              <br>
+              Spring 2019
+              <br>
+              <p></p>
+              <p>Trained a quadcopter to dribble a ball in air using platform attached to its back. Policy
+              gradient algorithms PPO, TRPO and VPG were used to train the agent and evaluate its performance for each of the methods. This project was done as an extra project for CSE-571('Artificial Intelligence')</p>
+            </td>
+          </tr>
+
+          <tr onmouseout="gazebo_stop()" onmouseover="gazebo_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='gazebo_image'>
+                  <img src='images/world_gazebo.png' width="160"></div>
+                <img src='images/turtle_gazebo.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function gazebo_start() {
+                  document.getElementById('gazebo_image').style.opacity = "1";
+                }
+
+                function gazebo_stop() {
+                  document.getElementById('gazebo_image').style.opacity = "0";
+                }
+                gazebo_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <strong>Turtle bot navigation in ROS using Q-learning</strong>
+              <br>
+              Spring 2019
+              <br>
+              <p></p>
+              <p>Trained a turtle bot in Gazebo/ROS using Q-Learning to navigate across a maze of objects without colliding. This project was done as part of CSE-571('Artifical Intelligence') course work.</p>
+            </td>
+          </tr> 
+
+          <tr onmouseout="sim_lane_stop()" onmouseover="sim_lane_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='sim_lane_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/sim_lane_change.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/sim_lane_change.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function sim_lane_start() {
+                  document.getElementById('sim_lane_image').style.opacity = "1";
+                }
+                function sim_lane_stop() {
+                  document.getElementById('sim_lane_image').style.opacity = "0";
+                }
+                sim_lane_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <strong>Copella Sim: Created Lane changing grid-world env</strong>
+              <br>
+              <a href="https://github.com/niagl/">code</a>
+              <br>
+              Spring 2019
+              <br>
+              <p></p>
+              <p>Created a grid-world environment in Copella Sim to simulate a three lane road system. The goal of the simulator was to enable the agent in learning lane changing policies using inputs from an ultrasonic sensor. At each reset of the environment state, the agent and other cars were randomly positioned on the three lanes.
+              </p>
+            </td>
+          </tr> 
+
+          <tr onmouseout="sim_quad_stop()" onmouseover="sim_quad_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='sim_quad_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/sim_quad.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/sim_quad.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function sim_quad_start() {
+                  document.getElementById('sim_quad_image').style.opacity = "1";
+                }
+
+                function sim_quad_stop() {
+                  document.getElementById('sim_quad_image').style.opacity = "0";
+                }
+                sim_quad_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <strong>Copella Sim: Created air dribble quadcopter env</strong>
+              <br>
+              <a href="https://github.com/niagl/">code</a>
+              <br>
+              Spring 2019
+              <br>
+              <p></p>
+              <p>Using Copella Sim, created an environment simulating gravity and containing a quadcopter with platform attached at its back and a ball that initializes at a random distance on top of the quadcopter. The goal is to get the quadcopter to learn to balance iself with the platform attached and eventually dribble the ball on its platform. The reward was engineered to maximize the number of dribbles on quadcopter's platform without dropping the ball. 
+              </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="img_sim_stop()" onmouseover="img_sim_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='img_sim_image'>
+                  <img src="images/image_sim.png" width="160"></div>
+                <img src='images/image_sim1.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function img_sim_start() {
+                  document.getElementById('img_sim_image').style.opacity = "1";
+                }
+
+                function img_sim_stop() {
+                  document.getElementById('img_sim_image').style.opacity = "0";
+                }
+                img_sim_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <strong>Image-based search engine</strong>
+              <br>
+              <a href="https://github.com/niagl/">code</a>
+              <br>
+              Fall 2018
+              <br>
+              <p></p>
+              <p>As part of CSE-xxx('') created an Image based search engine using  </p>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">                
+                <img src='images/bitcoin_predict.png' width="160">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <strong>Bitcoin price prediction</strong>
+              <br>
+              Spring 2016 
+              <p></p>
+              <p>For the final year bachelors degree project, created a model to predict bitcoin pricing. Initially, a dataset was created from scraping 50+ sources including bitcoin news outlets, social media twitter tags, pricing of various commodities(gold, oil), game betting outlets, etc over a period of two years in the past. Using the cleaned dataset along with bitcoin pricing over the period, the number of sources were reduced to 30 after applying Principal Component Analysis and bitcoin pricing was predicted for next 60 days.</p>
+            </td>
+          </tr>
+
+          <tr onmouseout="blockchain_viewer_stop()" onmouseover="blockchain_viewer_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='blockchain_viewer_image'>
+                  <img src='images/blockchain_block.png' width="160"></div>
+                <img src='images/blockchain_viewer.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function blockchain_viewer_start() {
+                  document.getElementById('blockchain_viewer_image').style.opacity = "1";
+                }
+
+                function blockchain_viewer_stop() {
+                  document.getElementById('blockchain_viewer_image').style.opacity = "0";
+                }
+                blockchain_viewer_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <strong>Bitcoin - Blockchain viewer</strong>
+              <br>
+              <a href="https://yichengwu.github.io/flare-removal/">code</a>
+              Spring 2016
+              <br>
+              <p></p>
+              <p>
+                To understand blockchain and its application in bitcoin, created a visualizer to 
+              </p>
+            </td>
+          </tr> 
+
+          <tr onmouseout="lod_viz_stop()" onmouseover="lod_viz_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='lod_viz_image'>
+                  <img src="images/lod_viz_1.png" width="160"></div>
+                <img src='images/lod_viz_2.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function lod_viz_start() {
+                  document.getElementById('lod_viz_image').style.opacity = "1";
+                }
+                function lod_viz_stop() {
+                  document.getElementById('lod_viz_image').style.opacity = "0";
+                }
+                lod_viz_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <strong>Drug data visualization in high dimensions</strong>
+              <br>
+              <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA">video</a>
+              Fall 2015
+              <br>
+              <p></p>
+              <p>As part of work at the KaNoe Lab during my bachelors, FDA drug data was visualized 
+              </p>
+            </td>
+          </tr> 
+
+          
+
+        </tbody></table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+          <tr>
+            <td>
+              <heading>Industry Experience</heading>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                  <img src='images/intel_labs_logo.png' width="160">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <strong>Intel Labs</strong>
+              <br>
+              May 2020 - Aug 2020
+              <br>
+              <p></p>
+              <p>
+                copy/paste
+              </p>
+            </td>
+          </tr> 
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/tesco_logo.png' width="160">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <strong>Conditional vehicular routing problem</strong>
+              <br>
+              July 2016 - June 2018
+              <p></p>
+              <p>
+                copy/paste
+              </p>
+            </td>
+          </tr> 
+
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/tesco_labs_logo.png' width="160">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <strong>Tesco labs</strong>
+              <br>
+              <a href="http://cseweb.ucsd.edu/~viscomp/projects/SIGA20LightstageSuperres/">project page</a> / 
+              <a href="https://arxiv.org/abs/2010.08888">arXiv</a>
+              <p></p>
+              <p>
+                copy/paste
+              </p>
+            </td>
+          </tr> 
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/tesco_logo.png' width="160">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <strong>Tesco TechDay Android App</strong>
+              <br>
+              <a href="http://sniklaus.com/dualref">project page</a> /
+              <a href="https://arxiv.org/abs/2010.00702">arXiv</a>
+              <p></p>
+              <p>
+                copy/paste
+              </p>
+            </td>
+          </tr> 
+
+          
+
+          </tbody></table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+          <tr>
+            <td>
+              <heading>Teaching / Talks / Mentoring</heading>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/asu_logo.png' width="160">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <strong>CSE 571: TA</strong>
+              <br>
+              Fall 2019
+              <p></p>
+              <p>.....</p>
+            </td>
+          </tr> 
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/pes_lab_logo.png' width="160">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <strong>Android and Web development talks at DSU and PES</strong>
+              <br>
+              <a href="https://bmild.github.io/fourfeat/">project page</a> /
+              video: <a href="https://www.youtube.com/watch?v=nVA6K6Sn2S4">3 min</a>, <a href="https://www.youtube.com/watch?v=iKyIJ_EtSkw">10 min</a> /
+              <a href="https://arxiv.org/abs/2006.10739">arXiv</a> /
+              <a href="https://github.com/tancik/fourier-feature-networks">code</a>
+              <p></p>
+              <p>.....</p>
+            </td>
+          </tr> 
+
+    
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/pes_lab_logo.png' width="160">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <strong>M Lab summer intern mentor</strong>
+              <br>
+              <strong>Jonathan T. Barron</strong>
+              <br>
+              <em>ECCV</em>, 2020 &nbsp <font color=#FF8080><strong>(Spotlight)</strong></font>
+              <br>
+              <a href="https://github.com/jonbarron/hist_thresh">code</a> / 
+              <a href="https://www.youtube.com/watch?v=rHtQQlQo1Q4">video</a> / 
+              <a href="data/BarronECCV2020.bib">bibtex</a>
+              <br>
+              <p></p>
+              <p>
+              .....
+              </p>
+            </td>
+          </tr>     
+        </tbody></table>
+        
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right;font-size:small;">
+                Website Inspiration: <a href="https://jonbarron.info/">Jon Barron</a>
+              </p>
+              <p style="text-align:right;font-size:small;">
+                Last Updated: June 21
+              </p>
+            </td>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
